@@ -208,6 +208,16 @@ html {
     color: var(--sec-color);
 }
 
+@media (max-width: 767px) {
+
+    .landing .intro h1 {
+        display: block;
+        font-size: 25px;
+        max-width: 100%;
+    }
+ 
+}
+
 .landing .intro p {
     line-height: 1.8;
     font-size: 19px;
